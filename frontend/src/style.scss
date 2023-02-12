@@ -1,0 +1,96 @@
+$greencol : #b9e7e7;
+
+.App {
+     // Login and Register
+    .auth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: $greencol;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: teal;
+        margin-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        background-color: white;
+        width: 250px;
+        grid-gap: 20px;
+
+        input {
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid grey;
+        }
+
+        p {
+            font-size: 15px;
+            color: red;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            background-color: teal;
+            cursor: pointer;
+            color: white;
+        }
+
+        span {
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+}
+
+// GPS Details
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+th span {
+    margin-right: 1rem;
+}
+
+input {
+    -webkit-appearance: none;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    background: #f0f0f0;
+}
+
+.pagination {
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+
